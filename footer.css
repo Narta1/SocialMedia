@@ -1,0 +1,26 @@
+.footer-icons{
+    width: 25px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    padding-left: 35px;
+    
+    
+    position: fixed;
+    z-index: 10000;
+    bottom: 0; 
+    left: 440px;
+    right: 440px;
+    
+    background-color: white;
+
+    
+}
+.footer-icons{
+    margin-left: 15px;}
+.last-icon{
+    margin-right: 10px;
+}

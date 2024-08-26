@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(206, 201, 201);
+    z-index: 0;
+
+}
+.container{
+    width: 400px;
+   background-color: white;
+   z-index: 1;
+   overflow-y: auto;
+   height: 100vh;
+   overflow-x: hidden
+   
+    
+    
+    
+    
+    
+}
+.head{
+    display: grid;
+    grid-template-columns: 300px 100px;
+    height: 40px;
+    background-color: white;
+    padding-top: 10px;
+    
+    
+    
+}
+.insta-logo{
+    width: 100px;
+    
+}
+.logo{
+    margin-left: 10px;
+    
+}
+.heart-icon{
+    width: 20px;
+    height: 20px;
+}
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+   
+    
+}
+.selfie{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid red;
+}
+.story-section{
+    display:flex;
+    
+    height: 110px;
+    background-color:white;
+    overflow-x: auto;
+    margin-right: 5px; 
+}
+.stories{
+    margin-left: 8px;
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
+    
+}
+p{
+    font-size: 10px;
+}
+
+.three-dots{
+    width: 18px;
+    margin-left: 50px;
+}
+.profile-title-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.title-section{
+    display:grid;
+    grid-template-columns: 300px 100px ;
+    margin-left: 15px;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    
+    
+}
+.feed-pic{
+    width: 400px;
+    height: 400px;
+}
+.main-page-section{
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+.icons-grid-main{
+    display: grid;
+    grid-template-columns: 300px 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.save-icon{
+    margin-left: 50px;
+    
+    
+
+}
+.utilities{
+    margin-right: 10px;
+}
+.profile-liked-pic{
+    width: 13px;
+    height: 13px;
+    border-radius: 6.5px;
+   
+    
+    margin-left: 15px;
+
+}
+.profile-liked-pic1{
+    width: 13px;
+    height: 13px;
+    border-radius: 6.5px;
+    
+    margin-left: -2px;
+    
+    
+}
+.profile-liked-pic2{
+    width: 13px;
+    height: 13px;
+    border-radius: 6.5px;
+    
+    margin-left: -4px;
+    margin-right: 10px;
+    
+    
+}
+
+.pics-stat{
+    display: flex;
+    justify-items: center;
+    align-items:center;
+}
+.description{
+    display: flex;
+    margin-left: 15px;
+    margin-top: -8px;
+}
+.profile-name{
+    margin-right: 5px;
+    font-weight: bold;
+}

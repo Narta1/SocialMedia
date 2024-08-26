@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(206, 201, 201);
+    z-index: 0;
+
+}
+.container{
+    width: 400px;
+   background-color: white;
+   z-index: 1;
+   height: 100vh;
+   overflow-y: auto;
+    
+    }
+.icons{
+    
+        width: 15px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+}
+
+.search-div{
+    display: flex;
+    justify-content: center;
+    position:relative;
+   
+    
+}
+.search-box{
+    width: 300px;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 30px;
+    border:solid 1px rgb(220, 220, 220);
+    
+}
+.search-icon{
+    position:absolute;
+    top: 10px;
+    left: 35px;
+    }
+    .inbox-req{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 15px 0px 15px;
+    }
+    .req{
+        color: rgb(92, 178, 215);
+        font-weight: bold;
+    }
+    .story{
+        width: 50px;
+        height: 50px;
+        border-radius:25px ;
+        border: 1px solid red;
+    }
+    .inbox-box{
+        display: grid;
+        grid-template-columns: 100px 250px 100px;
+        padding: 5px 15px 0px 15px;
+        align-items: center;
+    }
+    .inbox-text{
+        margin-left: -20px;
+    }
+    .active{
+        color: rgb(161, 160, 160);
+        margin-top: -8px;
+    }
+    .story-view{
+        
+    }
+   
